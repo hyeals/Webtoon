@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    // 뷰를 눌렀을 때
+    <item android:state_pressed="true" android:drawable="@drawable/drawable_view_focused"></item>
+    // 뷰를 포커스 했을 때
+    <item android:state_focused="true" android:drawable="@drawable/drawable_view_focused"></item>
+    // 뷰를 누르기 전
+    <item android:drawable="@drawable/drawable_view"></item>
+
+</selector>
